@@ -1,0 +1,135 @@
+/* Container chung cho 2 form Login/Register */
+.auth-container {
+    width: 39%;
+    margin: 70px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+  
+  .auth-header {
+    background: linear-gradient(90deg, #5ed0ff, #005bea);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .auth-header h2 {
+    margin: 0;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  
+  .auth-form {
+    padding: 55px 40px;
+  }
+  
+  .auth-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .auth-form button {
+    width: 106%;
+    padding: 12px;
+    margin-top: 16px;
+    background: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .auth-form button:hover {
+    background: #3b78c2;
+  }
+  
+  .auth-footer {
+    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+  }
+  
+  .auth-footer a {
+    color: #4a90e2;
+    text-decoration: none;
+  }
+  .auth-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* HomePage */
+  .home-container {
+    display: flex;
+    height: 100%;
+  }
+  
+  .home-sidebar {
+    flex: 0.2 1 500px;
+    background: linear-gradient(135deg, #5ed0ff, #005bea);
+    color: #fff;
+    padding: 0px 40px;
+    box-sizing: border-box;
+  }
+  
+  .home-sidebar h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+  
+  .home-sidebar p {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  
+  .home-sidebar .btns {
+    margin-top: 40px;
+    margin-left: 5%;
+  }
+  
+  .home-sidebar .btns button {
+    margin-right: 12px;
+    padding: 10px 20px;
+    background: #fff;
+    color: #005bea;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .home-sidebar .btns button:hover {
+    background: #f0f0f0;
+  }
+  
+  .home-main {
+    flex: 1;
+    background: #f7f9fc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home-main img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .home-container { flex-direction: column; }
+    .home-sidebar, .home-main { flex: none; width: 100%; }
+  }
+  
+  span.u{
+    display: inline-block;
+    margin-right: 10%;
+  }
+  
+  .container{
+    background-color: #3b48ff9b;
+  }
